@@ -1,4 +1,16 @@
 h1 {
-  color: orangered;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
+  background: url(./Background.gif) no-repeat center fixed;
+  background-size: cover;
+}
+/* #Header-Image {
+  text-align: center;
+  background-image: url(./Background.gif);
+} */
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
