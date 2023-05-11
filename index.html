@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <head>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <title>Yoni's Website</title>
   </head>
   <body>
     <h1 id="Header-Image">Well there's no content, so...</h1>
-    <!-- <h1>Welcome to my website!</h1> -->
+    <section>
+      <h3 id="intro-heading">
+        Hello there world! My name is Yoni, and I live in LA with my wife! Click
+        <a href="" id="btn-more" style="font-size: 24px">here</a> to learn more
+        about me!
+      </h3>
+      <div
+        id="grid-container"
+        class="grid-container education list education-parent"
+        style="margin-top: 50px"
+      >
+        <div
+          class="grid-child education list education-child"
+          style="text-align: center"
+        >
+          <p class="grid-child-header">
+            <b style="color: rgb(32, 121, 199); font-size: 40px">Education</b>
+          </p>
+        </div>
+
+        <div
+          class="grid-child education list education-child"
+          style="text-align: left"
+        >
+          <ul>
+            <li>
+              <b
+                >Azrieli Graduate School of Jewish Education & Administration,
+                Yeshiva University, M.S. in Jewish Education,</b
+              >
+              New York, GPA: 3.85 (Completed 2021)
+            </li>
+            <li>
+              <b
+                >Bernard Revel Graduate School of Jewish Studies, Yeshiva
+                University, M.A. in Jewish Philosophy,</b
+              >
+              New York, GPA: 3.94 (Completed 2021)
+            </li>
+            <li>
+              <b
+                >Queens College, City University of New York, B.A. in
+                Philosophy,</b
+              >
+              New York, GPA: 3.98, (Completed 2015)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
-    <p>
-      Hello there world! My name is Yoni, and this is my very first website.
-      Click <button id="btn-more" type="button">here</button> to see more!
-    </p>
   </body>
 </html>
